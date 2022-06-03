@@ -1,0 +1,89 @@
+Subtract One Number from Another with JavaScript
+
+const myVar = 12 - 6;
+
+Change the 0 so the difference is 12.
+
+const difference = 45 - 33;
+Changed the number from const difference = 45 - 0; to 33 (45 - 33 = 12);
+
+Multiply Two Numbers with JavaScript
+
+const myVar = 13 * 13;
+
+myVar would have the value 169.
+
+Change the 0 so that product will equal 80.
+
+const product = 8 * 10;
+
+Divide One Number by Another with JavaScript
+
+const myVar = 16 / 2;
+myVar now has the value 8.
+
+Change the 0 so that the quotient is equal to 2.
+
+const quotient = 66 / 0;
+
+const quotient = 66 / 33;
+
+Increment a Number with JavaScript
+
+Change the code to use the ++ operator on myVar.
+
+let myVar = 87;
+
+// Only change code below this line
+myVar = myVar + 1;
+
+I got confused with this; I'm not gonna lie. I thought you had to change the number but I guess not. 
+The answer is myVar++;
+
+Decrement a Number with JavaScript
+
+i--;
+is the equivalent of
+
+i = i - 1;
+
+Change the code to use the -- operator
+on myVar.
+
+let myVar = 11;
+
+// Only change code below this line
+myVar--;
+
+I think I'm getting this now. It looks tougher because I overthink and overshoot the message here.
+
+Create Decimal Numbers with JavaScript
+
+Create a variable myDecimal and give it a decimal value with a fractional part (e.g. 5.7).
+
+const ourDecimal = 5.7;
+
+// Only change code below this line
+var myDecimal = 2.8;
+
+I thought you would have to keep the 'our' in ourDecimal, but apparently you change it. Huh.
+
+Multiply Two Decimals with JavaScript
+
+Change the 0.0 so that product will equal 5.0.
+
+const product = 2.0 * 0.0;
+
+Here I thought you had to multiply the "2" but not... You have to change it to '5' and '1'. (You can't make '2' equal '5' so yeah.)
+
+const product = 5.0 * 1.0;
+
+Divide One Decimal by Another with JavaScript
+
+Change the 0.0 so that quotient will equal to 2.2.
+
+const quotient = 0.0 / 2.0; // Change this line
+
+const quotient = 4.4 / 2.0;
+
+I have to say my Math skills are HORRID. It took me FOREVER to figure this out, no lie.
