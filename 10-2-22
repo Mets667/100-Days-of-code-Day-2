@@ -1,0 +1,49 @@
+Objects and Object Constructors (JavaScript)
+
+object literal syntax is as follows:
+
+const myObject = {
+  property: 'Value!',
+  otherProperty: 77,
+  "obnoxious property": function() {
+    // do stuff!
+ }
+}
+
+There are also 2 ways to get information out of an object: dot notation and bracket notation.
+
+// dot notation
+myObject.property // 'Value!'
+
+// bracket notation
+myObject["obnoxious property"] // [Function]
+
+Dot notation is easier and cleaner but depends on context. It's great for personal preference but it doesn't always work (it depends on context of what
+you're working with):
+
+For example, myObject."obnoxious property" won’t work because that property is a string with a space in it; likewise, you cannot use variables in dot notation:
+
+const variable = 'property'
+
+myObject.variable // this gives us 'undefined' because it's looking for a property named 'variable' in our object
+
+myObject[variable] // this is equivalent to myObject['property'] and returns 'Value!'
+
+You can begin to organize your code is by simply grouping things into objects, like this (a tic-tac-toe game):
+
+// example one
+const playerOneName = "tim"
+const playerTwoName = "jenn"
+const playerOneMarker = "X"
+const playerTwoMarker = "O"
+
+// example two
+const playerOne = {
+  name: "tim",
+  marker: "X"
+}
+
+const playerTwo = {
+  name: "jenn",
+  marker: "O"
+}
