@@ -1,0 +1,15 @@
+//JavaScript with exercism.org! So exciting! :)
+
+Right now I'm learning something from exercism.org, and I will post what I'm doing there. 
+
+Solved my first exercise in which I had to do "Hello, World!" by using the information given:
+
+export function hello() {
+  return 'Hello, World!';
+}
+
+It was originally:
+
+export funtion hello() {
+ return 'Goodbye, Mars!';
+ }
